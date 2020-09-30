@@ -1,0 +1,50 @@
+html,
+body {
+  background-color: black;
+  margin: 0%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+/* ----------------------Global Classes--------------------- */
+a {
+  text-decoration: none;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+ul {
+  list-style-type: none;
+}
+/* -----xx---------------Global Classes------------xx------- */
+
+/* -------------------------- NavBar------------------------ */
+.nav-bar {
+  background: white;
+  padding: 0 2rem;
+  height: 0rem;
+  min-height: 60vh;
+}
+.nav-bar .nav-item {
+  display: flex;
+  margin: 0%;
+}
+
+.nav-bar .nav-item .nav-link {
+  padding: 1.6rem 1rem;
+  font-size: 1.1rem;
+  position: relative;
+}
+
+.nav-bar .nav-brand a {
+  font-size: 1.6rem;
+  color: black;
+}
+.nav-bar .nav-menu {
+  justify-content: space-between;
+}
+.social {
+  padding: 1.4rem 0;
+}
+/* -------XXXXXXX----------- NavBar----------XXXXXX---------- */
